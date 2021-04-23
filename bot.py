@@ -11,7 +11,7 @@ from pyrogram.types import (
 
 
 TOKEN = os.environ.get("BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", 12345))
+API_ID = int(os.environ.get("APP_ID", 12345))
 API_HASH = API_HASH = os.environ.get("API_HASH", "")
 app = Client("short_link", bot_token =TOKEN , api_id = API_ID, api_hash = API_HASH )
 
